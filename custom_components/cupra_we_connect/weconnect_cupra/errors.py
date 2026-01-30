@@ -2,8 +2,8 @@ from __future__ import annotations
 from typing import Dict, List, Set, Tuple, Callable, Any, Optional
 import logging
 
-from weconnect_cupra.weconnect_errors import ErrorEventType
-from weconnect_cupra.addressable import AddressableLeaf, AddressableObject, AddressableDict
+from .weconnect_errors import ErrorEventType
+from .addressable import AddressableLeaf, AddressableObject, AddressableDict
 
 
 LOG = logging.getLogger("weconnect_cupra")

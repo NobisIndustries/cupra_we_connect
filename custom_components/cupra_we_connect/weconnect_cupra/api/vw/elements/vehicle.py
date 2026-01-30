@@ -9,40 +9,40 @@ import logging
 
 from requests import exceptions, codes
 
-from weconnect_cupra.api.vw.elements.generic_settings import GenericSettings
-from weconnect_cupra.elements.generic_status import GenericStatus
-from weconnect_cupra.addressable import AddressableObject, AddressableAttribute, AddressableDict, AddressableList
-from weconnect_cupra.fetch import Fetcher
-from weconnect_cupra.elements.plug_status import PlugStatus
-from weconnect_cupra.elements.window_heating_status import WindowHeatingStatus
-from weconnect_cupra.api.vw.elements.generic_capability import GenericCapability
-from weconnect_cupra.api.vw.elements.generic_request_status import GenericRequestStatus
-from weconnect_cupra.api.vw.elements.controls import Controls
-from weconnect_cupra.api.vw.elements.access_status import AccessStatus
-from weconnect_cupra.api.vw.elements.battery_status import BatteryStatus
-from weconnect_cupra.api.vw.elements.lv_battery_status import LVBatteryStatus
-from weconnect_cupra.api.vw.elements.capability_status import CapabilityStatus
-from weconnect_cupra.api.vw.elements.charging_status import ChargingStatus
-from weconnect_cupra.api.vw.elements.charging_settings import ChargingSettings
-from weconnect_cupra.api.vw.elements.charge_mode import ChargeMode
-from weconnect_cupra.api.vw.elements.climatization_status import ClimatizationStatus
-from weconnect_cupra.api.vw.elements.climatization_settings import ClimatizationSettings
-from weconnect_cupra.api.vw.elements.climatization_timer import ClimatizationTimer
-from weconnect_cupra.api.vw.elements.lights_status import LightsStatus
-from weconnect_cupra.api.vw.elements.maintenance_status import MaintenanceStatus
-from weconnect_cupra.api.vw.elements.warning_lights_status import WarningLightsStatus
-from weconnect_cupra.api.vw.elements.parking_position import ParkingPosition
-from weconnect_cupra.api.vw.elements.range_status import RangeStatus
-from weconnect_cupra.api.vw.elements.odometer_measurement import OdometerMeasurement
-from weconnect_cupra.api.vw.elements.range_measurements import RangeMeasurements
-from weconnect_cupra.api.vw.elements.readiness_status import ReadinessStatus
-from weconnect_cupra.api.vw.elements.charging_profiles import ChargingProfiles
-from weconnect_cupra.errors import APICompatibilityError, RetrievalError, APIError
-from weconnect_cupra.util import toBool
-from weconnect_cupra.weconnect_errors import ErrorEventType
-from weconnect_cupra.api.vw.domain import Domain
-from weconnect_cupra.elements.error import Error
-from weconnect_cupra.api.vw.elements.helpers.request_tracker import RequestTracker
+from ....api.vw.elements.generic_settings import GenericSettings
+from ....elements.generic_status import GenericStatus
+from ....addressable import AddressableObject, AddressableAttribute, AddressableDict, AddressableList
+from ....fetch import Fetcher
+from ....elements.plug_status import PlugStatus
+from ....elements.window_heating_status import WindowHeatingStatus
+from ....api.vw.elements.generic_capability import GenericCapability
+from ....api.vw.elements.generic_request_status import GenericRequestStatus
+from ....api.vw.elements.controls import Controls
+from ....api.vw.elements.access_status import AccessStatus
+from ....api.vw.elements.battery_status import BatteryStatus
+from ....api.vw.elements.lv_battery_status import LVBatteryStatus
+from ....api.vw.elements.capability_status import CapabilityStatus
+from ....api.vw.elements.charging_status import ChargingStatus
+from ....api.vw.elements.charging_settings import ChargingSettings
+from ....api.vw.elements.charge_mode import ChargeMode
+from ....api.vw.elements.climatization_status import ClimatizationStatus
+from ....api.vw.elements.climatization_settings import ClimatizationSettings
+from ....api.vw.elements.climatization_timer import ClimatizationTimer
+from ....api.vw.elements.lights_status import LightsStatus
+from ....api.vw.elements.maintenance_status import MaintenanceStatus
+from ....api.vw.elements.warning_lights_status import WarningLightsStatus
+from ....api.vw.elements.parking_position import ParkingPosition
+from ....api.vw.elements.range_status import RangeStatus
+from ....api.vw.elements.odometer_measurement import OdometerMeasurement
+from ....api.vw.elements.range_measurements import RangeMeasurements
+from ....api.vw.elements.readiness_status import ReadinessStatus
+from ....api.vw.elements.charging_profiles import ChargingProfiles
+from ....errors import APICompatibilityError, RetrievalError, APIError
+from ....util import toBool
+from ....weconnect_errors import ErrorEventType
+from ....api.vw.domain import Domain
+from ....elements.error import Error
+from ....api.vw.elements.helpers.request_tracker import RequestTracker
 
 SUPPORT_IMAGES = False
 try:

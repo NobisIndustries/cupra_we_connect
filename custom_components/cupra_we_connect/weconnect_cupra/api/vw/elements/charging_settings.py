@@ -1,8 +1,8 @@
 import logging
 
-from weconnect_cupra.addressable import AddressableLeaf, ChangeableAttribute
-from weconnect_cupra.api.vw.elements.generic_settings import GenericSettings
-from weconnect_cupra.api.vw.elements.enums import UnlockPlugState, MaximumChargeCurrent
+from ....addressable import AddressableLeaf, ChangeableAttribute
+from ....api.vw.elements.generic_settings import GenericSettings
+from ....api.vw.elements.enums import UnlockPlugState, MaximumChargeCurrent
 
 LOG = logging.getLogger("weconnect_cupra")
 

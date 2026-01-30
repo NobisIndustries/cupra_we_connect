@@ -1,10 +1,10 @@
 from datetime import datetime, time
 import logging
 
-from weconnect_cupra.addressable import AddressableAttribute, AddressableDict, AddressableObject
-from weconnect_cupra.api.vw.elements.enums import UnlockPlugState
-from weconnect_cupra.api.vw.elements.generic_settings import GenericSettings
-from weconnect_cupra.api.vw.elements.timer import Timer
+from ....addressable import AddressableAttribute, AddressableDict, AddressableObject
+from ....api.vw.elements.enums import UnlockPlugState
+from ....api.vw.elements.generic_settings import GenericSettings
+from ....api.vw.elements.timer import Timer
 
 LOG = logging.getLogger("weconnect_cupra")
 

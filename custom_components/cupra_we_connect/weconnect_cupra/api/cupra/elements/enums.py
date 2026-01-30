@@ -1,5 +1,5 @@
 from enum import Enum
-from weconnect_cupra.elements.control_operation import ControlInputEnum
+from ....elements.control_operation import ControlInputEnum
 
 
 class MaximumChargeCurrent(ControlInputEnum,):

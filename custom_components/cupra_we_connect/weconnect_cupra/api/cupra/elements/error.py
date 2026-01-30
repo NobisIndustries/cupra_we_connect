@@ -4,7 +4,7 @@ import logging
 
 from datetime import datetime
 
-from weconnect_cupra.addressable import AddressableObject, AddressableAttribute
+from ....addressable import AddressableObject, AddressableAttribute
 
 if TYPE_CHECKING:
     from weconnect_cupra.elements.generic_status import GenericStatus

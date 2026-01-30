@@ -5,20 +5,20 @@ import locale
 import logging
 from datetime import timedelta
 
-from weconnect_cupra.auth.openid_session import OpenIDSession
-from weconnect_cupra.auth.session_manager import SessionManager, Service, SessionUser
-from weconnect_cupra.addressable import AddressableLeaf, AddressableObject, AddressableDict
-from weconnect_cupra.fetch import Fetcher
-from weconnect_cupra.errors import ErrorBus
+from .auth.openid_session import OpenIDSession
+from .auth.session_manager import SessionManager, Service, SessionUser
+from .addressable import AddressableLeaf, AddressableObject, AddressableDict
+from .fetch import Fetcher
+from .errors import ErrorBus
 # VW specific
-from weconnect_cupra.api.vw.domain import Domain
-from weconnect_cupra.api.vw.api import VwApi
-from weconnect_cupra.api.vw.elements.vehicle import Vehicle as VwVehicle
+from .api.vw.domain import Domain
+from .api.vw.api import VwApi
+from .api.vw.elements.vehicle import Vehicle as VwVehicle
 # Cupra specific
-from weconnect_cupra.api.cupra.api import CupraApi
-from weconnect_cupra.api.cupra.elements.vehicle import Vehicle as CupraVehicle
+from .api.cupra.api import CupraApi
+from .api.cupra.elements.vehicle import Vehicle as CupraVehicle
 
-from weconnect_cupra.__version import __version__ as VERSION
+from .__version import __version__ as VERSION
 
 LOG = logging.getLogger("weconnect_cupra")
 

@@ -3,26 +3,26 @@ from typing import Dict, List, Any, Optional
 from enum import Enum
 import logging
 
-from weconnect_cupra.addressable import AddressableObject, AddressableAttribute, AddressableDict, AddressableList
-from weconnect_cupra.api.cupra.elements.odometer_measurement import OdometerMeasurement
-from weconnect_cupra.api.cupra.elements.parking_position import ParkingPosition
-from weconnect_cupra.elements.error import Error
-from weconnect_cupra.elements.window_heating_status import WindowHeatingStatus
-from weconnect_cupra.errors import APICompatibilityError, APIError
-from weconnect_cupra.util import toBool
-from weconnect_cupra.api.cupra.domain import Domain
-from weconnect_cupra.fetch import Fetcher
-from weconnect_cupra.elements.plug_status import PlugStatus
-from weconnect_cupra.api.cupra.elements.climatization_status import ClimatizationStatus
-from weconnect_cupra.api.cupra.elements.climatization_settings import ClimatizationSettings
-from weconnect_cupra.api.cupra.elements.charging_settings import ChargingSettings
-from weconnect_cupra.api.cupra.elements.controls import Controls
-from weconnect_cupra.api.cupra.elements.generic_capability import GenericCapability
-from weconnect_cupra.api.cupra.elements.charging_status import ChargingStatus
-from weconnect_cupra.api.cupra.elements.helpers.request_tracker import RequestTracker
-from weconnect_cupra.api.cupra.elements.battery_status import BatteryStatus
-from weconnect_cupra.api.cupra.elements.access_status import AccessStatus
-from weconnect_cupra.api.cupra.elements.connection_status import ConnectionStatus
+from ....addressable import AddressableObject, AddressableAttribute, AddressableDict, AddressableList
+from ....api.cupra.elements.odometer_measurement import OdometerMeasurement
+from ....api.cupra.elements.parking_position import ParkingPosition
+from ....elements.error import Error
+from ....elements.window_heating_status import WindowHeatingStatus
+from ....errors import APICompatibilityError, APIError
+from ....util import toBool
+from ....api.cupra.domain import Domain
+from ....fetch import Fetcher
+from ....elements.plug_status import PlugStatus
+from ....api.cupra.elements.climatization_status import ClimatizationStatus
+from ....api.cupra.elements.climatization_settings import ClimatizationSettings
+from ....api.cupra.elements.charging_settings import ChargingSettings
+from ....api.cupra.elements.controls import Controls
+from ....api.cupra.elements.generic_capability import GenericCapability
+from ....api.cupra.elements.charging_status import ChargingStatus
+from ....api.cupra.elements.helpers.request_tracker import RequestTracker
+from ....api.cupra.elements.battery_status import BatteryStatus
+from ....api.cupra.elements.access_status import AccessStatus
+from ....api.cupra.elements.connection_status import ConnectionStatus
 
 
 LOG: logging.Logger = logging.getLogger("weconnect_cupra")

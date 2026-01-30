@@ -3,8 +3,8 @@ import base64
 import io
 import logging
 
-from weconnect_cupra.addressable import AddressableAttribute, AddressableObject, AddressableDict
-from weconnect_cupra.elements.generic_status import GenericStatus
+from ....addressable import AddressableAttribute, AddressableObject, AddressableDict
+from ....elements.generic_status import GenericStatus
 
 SUPPORT_IMAGES = False
 try:

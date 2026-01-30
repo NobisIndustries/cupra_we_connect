@@ -6,8 +6,8 @@ import logging
 if TYPE_CHECKING:
     from weconnect_cupra.api.vw.elements.vehicle import Vehicle
 
-from weconnect_cupra.elements.generic_status import GenericStatus
-from weconnect_cupra.api.vw.domain import Domain
+from .....elements.generic_status import GenericStatus
+from .....api.vw.domain import Domain
 
 
 LOG = logging.getLogger("weconnect_cupra")

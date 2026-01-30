@@ -1,9 +1,9 @@
 from enum import Enum
 import logging
 
-from weconnect_cupra.addressable import AddressableLeaf, ChangeableAttribute, AddressableAttribute, AliasChangeableAttribute
-from weconnect_cupra.api.vw.elements.generic_settings import GenericSettings
-from weconnect_cupra.util import celsiusToKelvin, farenheitToKelvin
+from ....addressable import AddressableLeaf, ChangeableAttribute, AddressableAttribute, AliasChangeableAttribute
+from ....api.vw.elements.generic_settings import GenericSettings
+from ....util import celsiusToKelvin, farenheitToKelvin
 
 LOG = logging.getLogger("weconnect_cupra")
 

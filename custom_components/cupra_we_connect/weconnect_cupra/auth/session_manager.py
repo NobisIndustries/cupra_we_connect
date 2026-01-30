@@ -4,13 +4,13 @@ import hashlib
 import json
 import logging
 
-from weconnect_cupra.auth.openid_session import OpenIDSession
-from weconnect_cupra.service import Service
+from ..auth.openid_session import OpenIDSession
+from ..service import Service
 # VW specific
-from weconnect_cupra.api.vw.auth.we_connect_session import WeConnectSession
-from weconnect_cupra.api.vw.auth.we_charge_session import WeChargeSession
+from ..api.vw.auth.we_connect_session import WeConnectSession
+from ..api.vw.auth.we_charge_session import WeChargeSession
 # Cupra specific
-from weconnect_cupra.api.cupra.auth.my_cupra_session import MyCupraSession
+from ..api.cupra.auth.my_cupra_session import MyCupraSession
 
 LOG = logging.getLogger("weconnect_cupra")
 

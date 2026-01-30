@@ -1,9 +1,9 @@
 from enum import Enum
 import logging
 
-from weconnect_cupra.addressable import AddressableObject, AddressableAttribute, AddressableDict
-from weconnect_cupra.elements.generic_status import GenericStatus
-from weconnect_cupra.elements.access_control_state import AccessControlState
+from ....addressable import AddressableObject, AddressableAttribute, AddressableDict
+from ....elements.generic_status import GenericStatus
+from ....elements.access_control_state import AccessControlState
 
 LOG = logging.getLogger("weconnect_cupra")
 

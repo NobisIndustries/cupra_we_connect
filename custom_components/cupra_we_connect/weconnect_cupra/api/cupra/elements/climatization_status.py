@@ -1,9 +1,9 @@
 from enum import Enum
 import logging
 
-from weconnect_cupra.addressable import AddressableAttribute
-from weconnect_cupra.api.cupra.elements.enums import ClimatizationState
-from weconnect_cupra.elements.generic_status import GenericStatus
+from ....addressable import AddressableAttribute
+from ....api.cupra.elements.enums import ClimatizationState
+from ....elements.generic_status import GenericStatus
 
 LOG = logging.getLogger("weconnect_cupra")
 

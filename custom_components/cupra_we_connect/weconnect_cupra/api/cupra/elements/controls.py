@@ -2,14 +2,14 @@ import logging
 import json
 import requests
 
-from weconnect_cupra.addressable import AddressableObject, ChangeableAttribute
-from weconnect_cupra.elements.control_operation import ControlOperation
-from weconnect_cupra.api.cupra.elements.charging_settings import ChargingSettings
-from weconnect_cupra.api.cupra.elements.climatization_settings import ClimatizationSettings
-from weconnect_cupra.elements.error import Error
-from weconnect_cupra.errors import ControlError, SetterError
-from weconnect_cupra.util import celsiusToKelvin, farenheitToKelvin, farenheitToCelsius
-from weconnect_cupra.api.vw.domain import Domain
+from ....addressable import AddressableObject, ChangeableAttribute
+from ....elements.control_operation import ControlOperation
+from ....api.cupra.elements.charging_settings import ChargingSettings
+from ....api.cupra.elements.climatization_settings import ClimatizationSettings
+from ....elements.error import Error
+from ....errors import ControlError, SetterError
+from ....util import celsiusToKelvin, farenheitToKelvin, farenheitToCelsius
+from ....api.vw.domain import Domain
 
 LOG = logging.getLogger("weconnect_cupra")
 

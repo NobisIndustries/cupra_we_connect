@@ -7,7 +7,7 @@ import time as timemodule
 from datetime import datetime, timezone, time
 from enum import Enum, IntEnum, Flag, auto
 
-from weconnect_cupra.util import toBool, imgToASCIIArt, robustTimeParse, ExtendedWithNullEncoder
+from .util import toBool, imgToASCIIArt, robustTimeParse, ExtendedWithNullEncoder
 
 SUPPORT_IMAGES = False
 try:

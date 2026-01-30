@@ -1,7 +1,7 @@
 import logging
 
-from weconnect_cupra.addressable import AddressableAttribute
-from weconnect_cupra.elements.generic_status import GenericStatus
+from ....addressable import AddressableAttribute
+from ....elements.generic_status import GenericStatus
 
 LOG = logging.getLogger("weconnect_cupra")
 

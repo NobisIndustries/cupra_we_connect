@@ -2,8 +2,8 @@ from enum import Enum
 from typing import List
 import logging
 
-from weconnect_cupra.addressable import AddressableAttribute, AddressableObject
-from weconnect_cupra.elements.generic_status import GenericStatus
+from ....addressable import AddressableAttribute, AddressableObject
+from ....elements.generic_status import GenericStatus
 
 LOG = logging.getLogger("weconnect_cupra")
 

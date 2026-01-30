@@ -3,12 +3,12 @@ from typing import List, Tuple, Optional
 import logging
 import locale
 
-from weconnect_cupra.addressable import AddressableDict, AddressableObject
-from weconnect_cupra.errors import RetrievalError
-from weconnect_cupra.api.vw.domain import Domain
-from weconnect_cupra.api.vw.elements.vehicle import Vehicle
-from weconnect_cupra.api.vw.elements.charging_station import ChargingStation
-from weconnect_cupra.fetch import Fetcher
+from ...addressable import AddressableDict, AddressableObject
+from ...errors import RetrievalError
+from ...api.vw.domain import Domain
+from ...api.vw.elements.vehicle import Vehicle
+from ...api.vw.elements.charging_station import ChargingStation
+from ...fetch import Fetcher
 
 
 LOG = logging.getLogger("weconnect_cupra")

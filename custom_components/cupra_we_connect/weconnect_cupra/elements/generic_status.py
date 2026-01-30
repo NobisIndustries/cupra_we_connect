@@ -5,10 +5,10 @@ from enum import Enum
 import logging
 from datetime import datetime, timedelta, timezone
 
-from weconnect_cupra.util import robustTimeParse
-from weconnect_cupra.addressable import AddressableObject, AddressableAttribute, AddressableList, AddressableDict
-from weconnect_cupra.elements.control_operation import ControlOperation
-from weconnect_cupra.elements.error import Error
+from ..util import robustTimeParse
+from ..addressable import AddressableObject, AddressableAttribute, AddressableList, AddressableDict
+from ..elements.control_operation import ControlOperation
+from ..elements.error import Error
 
 LOG: logging.Logger = logging.getLogger("weconnect_cupra")
 

@@ -7,10 +7,10 @@ import os
 
 import requests
 
-from weconnect_cupra.auth.openid_session import OpenIDSession
-from weconnect_cupra.weconnect_errors import ErrorEventType
-from weconnect_cupra.errors import ErrorBus, RetrievalError
-from weconnect_cupra.util import ExtendedEncoder
+from .auth.openid_session import OpenIDSession
+from .weconnect_errors import ErrorEventType
+from .errors import ErrorBus, RetrievalError
+from .util import ExtendedEncoder
 
 
 LOG = logging.getLogger("weconnect_cupra")

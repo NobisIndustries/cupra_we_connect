@@ -1,8 +1,8 @@
 import logging
 
-from weconnect_cupra.addressable import AddressableDict
-from weconnect_cupra.elements.generic_status import GenericStatus
-from weconnect_cupra.api.vw.elements.generic_capability import GenericCapability
+from ....addressable import AddressableDict
+from ....elements.generic_status import GenericStatus
+from ....api.vw.elements.generic_capability import GenericCapability
 
 LOG = logging.getLogger("weconnect_cupra")
 

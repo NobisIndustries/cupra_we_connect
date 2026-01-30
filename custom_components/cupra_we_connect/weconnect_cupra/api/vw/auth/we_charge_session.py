@@ -15,9 +15,9 @@ from oauthlib.oauth2 import InsecureTransportError, is_secure_transport
 
 from requests.models import CaseInsensitiveDict
 
-from weconnect_cupra.auth.openid_session import AccessType
-from weconnect_cupra.auth.vw_web_session import VWWebSession
-from weconnect_cupra.errors import APICompatibilityError, AuthentificationError, RetrievalError, TemporaryAuthentificationError
+from ....auth.openid_session import AccessType
+from ....auth.vw_web_session import VWWebSession
+from ....errors import APICompatibilityError, AuthentificationError, RetrievalError, TemporaryAuthentificationError
 
 LOG = logging.getLogger("weconnect_cupra")
 

@@ -1,7 +1,7 @@
 import logging
 from enum import Enum
 
-from weconnect_cupra.addressable import AddressableObject, AddressableAttribute, AddressableList
+from ....addressable import AddressableObject, AddressableAttribute, AddressableList
 
 LOG = logging.getLogger("weconnect_cupra")
 

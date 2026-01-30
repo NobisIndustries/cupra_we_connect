@@ -1,9 +1,9 @@
 from datetime import datetime
 import logging
 
-from weconnect_cupra.addressable import AddressableObject, AddressableAttribute, AddressableDict
+from ....addressable import AddressableObject, AddressableAttribute, AddressableDict
 
-from weconnect_cupra.util import robustTimeParse, toBool
+from ....util import robustTimeParse, toBool
 
 LOG = logging.getLogger("weconnect_cupra")
 

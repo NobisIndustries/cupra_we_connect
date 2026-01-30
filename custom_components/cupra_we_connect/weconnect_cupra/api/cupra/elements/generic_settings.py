@@ -4,11 +4,11 @@ import json
 
 import requests
 
-from weconnect_cupra.addressable import AddressableLeaf, ChangeableAttribute, AliasChangeableAttribute
-from weconnect_cupra.elements.generic_status import GenericStatus
-from weconnect_cupra.elements.error import Error
-from weconnect_cupra.errors import SetterError
-from weconnect_cupra.api.cupra.domain import Domain
+from ....addressable import AddressableLeaf, ChangeableAttribute, AliasChangeableAttribute
+from ....elements.generic_status import GenericStatus
+from ....elements.error import Error
+from ....errors import SetterError
+from ....api.cupra.domain import Domain
 
 LOG = logging.getLogger("weconnect_cupra")
 

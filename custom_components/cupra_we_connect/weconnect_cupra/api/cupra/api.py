@@ -3,13 +3,13 @@ from typing import Dict, List, Set, Tuple, Callable, Any, Optional
 import logging
 from datetime import datetime
 
-from weconnect_cupra.addressable import AddressableObject, AddressableDict
-from weconnect_cupra.fetch import Fetcher
-from weconnect_cupra.addressable import AddressableDict
-from weconnect_cupra.errors import RetrievalError
-from weconnect_cupra.api.cupra.domain import Domain
-from weconnect_cupra.api.cupra.elements.vehicle import Vehicle
-from weconnect_cupra.api.cupra.elements.charging_station import ChargingStation
+from ...addressable import AddressableObject, AddressableDict
+from ...fetch import Fetcher
+from ...addressable import AddressableDict
+from ...errors import RetrievalError
+from ...api.cupra.domain import Domain
+from ...api.cupra.elements.vehicle import Vehicle
+from ...api.cupra.elements.charging_station import ChargingStation
 
 
 LOG = logging.getLogger("weconnect_cupra")

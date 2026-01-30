@@ -1,9 +1,9 @@
 from datetime import datetime
 import logging
 
-from weconnect_cupra.addressable import AddressableAttribute, AddressableDict
-from weconnect_cupra.elements.generic_status import GenericStatus
-from weconnect_cupra.api.vw.elements.timer import Timer
+from ....addressable import AddressableAttribute, AddressableDict
+from ....elements.generic_status import GenericStatus
+from ....api.vw.elements.timer import Timer
 
 LOG = logging.getLogger("weconnect_cupra")
 

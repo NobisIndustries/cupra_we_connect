@@ -1,4 +1,4 @@
-from weconnect_cupra.auth.openid_session import OpenIDSession
+from ..auth.openid_session import OpenIDSession
 
 
 class VWWebSession(OpenIDSession):

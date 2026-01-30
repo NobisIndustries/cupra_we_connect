@@ -12,8 +12,8 @@ from oauthlib.oauth2.rfc6749.parameters import parse_authorization_code_response
 from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 
-from weconnect_cupra.auth.auth_util import addBearerAuthHeader
-from weconnect_cupra.errors import AuthentificationError, RetrievalError
+from ..auth.auth_util import addBearerAuthHeader
+from ..errors import AuthentificationError, RetrievalError
 
 
 LOG = logging.getLogger("weconnect_cupra")

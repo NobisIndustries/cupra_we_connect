@@ -2,7 +2,7 @@ from enum import IntEnum
 import logging
 from datetime import datetime
 
-from weconnect_cupra.addressable import AddressableObject, AddressableAttribute
+from ....addressable import AddressableObject, AddressableAttribute
 
 LOG = logging.getLogger("weconnect_cupra")
 
