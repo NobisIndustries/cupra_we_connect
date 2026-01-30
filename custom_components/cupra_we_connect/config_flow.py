@@ -6,8 +6,8 @@ from typing import Any
 
 import voluptuous as vol
 
-from weconnect_cupra import weconnect_cupra
-from weconnect_cupra.service import Service
+from .weconnect_cupra import weconnect_cupra
+from .weconnect_cupra.service import Service
 
 from homeassistant import config_entries
 from homeassistant.core import HomeAssistant

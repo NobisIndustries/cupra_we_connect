@@ -3,7 +3,7 @@ Support for Volkswagen WeConnect Platform
 """
 import logging
 
-from weconnect_cupra import weconnect_cupra
+from .weconnect_cupra import weconnect_cupra
 
 from homeassistant.components.device_tracker import SourceType
 from homeassistant.components.device_tracker.config_entry import TrackerEntity

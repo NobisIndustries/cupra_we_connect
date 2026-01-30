@@ -1,7 +1,7 @@
 """Entity representing a Volkswagen number control."""
 from __future__ import annotations
 
-from weconnect_cupra import weconnect_cupra
+from .weconnect_cupra import weconnect_cupra
 
 from homeassistant.components.number import NumberEntity
 from homeassistant.helpers.entity import EntityCategory

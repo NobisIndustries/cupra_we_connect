@@ -4,11 +4,11 @@ from __future__ import annotations
 from collections.abc import Callable
 from dataclasses import dataclass
 
-from weconnect_cupra import weconnect_cupra
-from weconnect_cupra.elements.plug_status import PlugStatus
-from weconnect_cupra.elements.window_heating_status import WindowHeatingStatus
-from weconnect_cupra.elements.access_control_state import AccessControlState
-from weconnect_cupra.elements.connection_state import ConnectionState
+from .weconnect_cupra import weconnect_cupra
+from .weconnect_cupra.elements.plug_status import PlugStatus
+from .weconnect_cupra.elements.window_heating_status import WindowHeatingStatus
+from .weconnect_cupra.elements.access_control_state import AccessControlState
+from .weconnect_cupra.elements.connection_state import ConnectionState
 
 
 from homeassistant.components.binary_sensor import (

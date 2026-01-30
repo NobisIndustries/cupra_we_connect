@@ -5,7 +5,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import cast
 
-from weconnect_cupra import weconnect_cupra
+from .weconnect_cupra import weconnect_cupra
 
 from homeassistant.components.sensor import (
     SensorEntity,

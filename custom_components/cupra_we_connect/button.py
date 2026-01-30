@@ -1,5 +1,5 @@
 """Button integration."""
-from weconnect_cupra import weconnect_cupra
+from .weconnect_cupra import weconnect_cupra
 
 from homeassistant.components.button import ButtonEntity
 

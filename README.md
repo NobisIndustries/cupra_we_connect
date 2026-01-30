@@ -4,7 +4,9 @@
 [![GitHub](https://img.shields.io/github/license/daernsinstantfortress/cupra_we_connect)](https://github.com/daernsinstantfortress/cupra_we_connect/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/daernsinstantfortress/cupra_we_connect)](https://github.com/daernsinstantfortress/cupra_we_connect/issues)
 
-_Cupra We Connect ID sensor provides statistics from the Cupra ID Api thru [WeConnect-Cupra-python lib](https://pypi.org/project/weconnect-cupra-daern/)._
+_Cupra We Connect ID sensor provides statistics from the Cupra ID Api._
+
+**Note:** This integration includes an embedded and patched version of the [WeConnect-Cupra-python library](https://github.com/daernsinstantfortress/WeConnect-Cupra-python). Since the original library was abandoned and contained bugs with newer API responses (specifically `None` values in charging data), we've integrated it directly into this codebase to maintain compatibility and fix critical issues.
 
 **This component will set up the following platforms.**
 
