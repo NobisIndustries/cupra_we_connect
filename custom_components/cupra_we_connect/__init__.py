@@ -6,9 +6,9 @@ import logging
 import asyncio
 import time
 
-from weconnect_cupra import weconnect_cupra
-from weconnect_cupra.service import Service
-from weconnect_cupra.elements.control_operation import ControlOperation
+from .weconnect_cupra import weconnect_cupra
+from .weconnect_cupra.service import Service
+from .weconnect_cupra.elements.control_operation import ControlOperation
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
